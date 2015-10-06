@@ -36,7 +36,7 @@ class Controller_Menu extends Controller_Template {
 
 	public function action_nocorruption()
 	{
-		$content = 'Нет коррупции';
+		$content = View::factory('menu/nocorruption');
 		$this->template->styles = array('style');
 		$this->template->title = 'Нет коррупции';
         $this->template->description = 'Стоматология';
